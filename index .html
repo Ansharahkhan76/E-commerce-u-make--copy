@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uMake+</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: grey;
+            padding: 15px 30px;
+        }
+
+        .logo {
+            width: 150px;
+            height: auto;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 10px;
+            background: transparent;
+        }
+
+        .nav-link {
+            color: #ecd1d1;
+            text-decoration: none;
+            font-size: 16px;
+            background-color: transparent;
+        }
+
+        .hero {
+            background-color: #3AAFA9;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero-text {
+            color: #FFFFFF;
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #3AAFA9;
+            color: #FFFFFF;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+          body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        
+        .containerr {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px grey;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .roww {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .boxx {
+            width: 45%;
+            padding: 20px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px grey;
+            border-radius: 5px;
+        }
+        
+        h2 {
+            color: #4a4a4a;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            color: #777;
+            margin-bottom: 20px;
+        }
+        
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: transparent;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            font-size: 14px;
+            padding: 30px 0;
+           }
+           
+           .footer-content {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+           }
+           
+           .footer-column {
+            width: 20%;
+            padding: 20px 0;
+           }
+           
+           .footer-column h4 {
+            margin-bottom: 15px;
+           }
+           
+           .footer-column ul {
+            list-style-type: none;
+            padding: 0;
+           }
+           
+           .footer-column ul li a {
+            color: #ffffff;
+            text-decoration: none;
+           }
+           
+           .footer-column ul li a:hover {
+            color: #dcdcdc;
+           }
+           
+           .footer-socials {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+           }
+           
+           .footer-socials i {
+            font-size: 24px;
+            color: #ffffff;
+           }
+           
+           .footer-socials i:hover {
+            color: #dcdcdc;
+           }
+           
+           .footer-bottom {
+            text-align: center;
+            margin-top: 20px;
+           }
+
+
+
+
+
+
+
+
+
+  .header {
+    background-color: transparent;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  #navbar {
+    overflow: hidden;
+    background-color: grey;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: #04AA6D;
+    color: black;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div id="navbar">
+        <nav class="navbar">
+           <a href="index .html"><img src="https://www.umake.com/_nuxt/img/uMake_Logo.81c06e6.svg" alt="Logo" class="logo"></a>
+            <div class="nav-links">
+                <a href="features.html" class="nav-link">Features</a>
+                <a href="whyumake.html" class="nav-link">Why uMake+</a>
+                <a href="explore.html" class="nav-link">Explore</a>
+                <a href="learn.html" class="nav-link">Learn</a>
+                <a href="pricing.html" class="nav-link">Pricing</a>
+                <a href="get started login form.html" style="background-color: #333;color:white" class="nav-link">Get Started</a>
+            </div>
+        </nav>
+        </div>
+    </header>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+            </script>
+            
+
+    <section class="hero">
+        <br><br>
+       <strong> <h1 class="hero-text">Design in 3D. <br> Publish Anywhere.</h1></strong>
+        <h3>Create beautiful designs — photos, presentations, or 3D models — <br> using a library of content and easy-to-use tools in uMake app for <br> iPhone, iPad and Mac (Apple Silicon).</h3>
+        <a href="get started login form.html" class="btn" style="border-style: inset ;">Get Started</a>
+        <br><br><br><br>
+    </section>
+    <center>
+    
+<video width="1320" height="740" controls>
+    <source src="https://umake.cdn.prismic.io/umake/101bfbaf-53a1-4cc2-8171-596076610067_umake_hp_hero.mp4" type="video/mp4" autocapitalize="">
+  </video>
+<br><br><br>
+<div  style="display: flex; justify-content:center;width:240px;height: 180px;" >
+    <br><br><br>
+    <img src="https://images.prismic.io/umake/04b4b164-bd99-46be-b2fa-821bf2ddc93c_homepage_awards_editor-choice.png?auto=compress,format">
+<img src="https://images.prismic.io/umake/7d4ac925-ca31-4b6f-923b-e8eec538f2b5_homepage_awards_app-of-the-year.png?auto=compress,format" alt="">
+<img src="https://images.prismic.io/umake/b34cf9dc-7b0a-403e-8f6b-ad9ba1e084c1_homepage_awards_best-of-2015.png?auto=compress,format" alt="">
+</div>
+
+<br><br>
+
+<h2>3D Design. Easier Than Ever.</h2>
+<h4>Design quickly with a touch of a button. Choose from a rich library of <br> templates, elements, textures: from furniture to graphic design assets.</h4>
+</center>
+<br><br>
+<h1><strong>Discover uMake+</strong></h1>
+<div style="background-color: darkblue;">
+    <center><br><br><br>
+<h1 style="color: white;">All the tools you need, on the go</h1>
+<h5 style="color: white;">Designing in 3D is now easier than ever. Drag and drop from the content <br> library, or draw precisely using the precision tool. Everything you need is <br> within reach.</h5>
+    </center><br><br><br>
+</div>
+
+<div class="containerr">
+    <h1>Exploring Infinite Creativity</h1>
+    <div class="roww">
+        <div class="boxx">
+            <p><img src="https://images.prismic.io/umake/4485b773-872c-4ec8-94d5-3bde51497a5c_join0054+5.png?auto=compress,format" style="height: 310px;width:380px" alt=""></p>
+        </div>
+        <div class="boxx">
+            <h2>Join uMake+</h2>
+            <p>uMake+ is an all-in-one app where you can easily <br> find everything you need - from Mobile and AR- <br>friendly 3D models to materials, textures, shapes <br> & colors. New content is added weekly.</p>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+
+    <div class="containerr">
+        <h1>Exploring Infinite Creativity</h1>
+        <div class="roww">
+            <div class="boxx">
+                <h2>When you're brainstorming</h2>
+                <p>Freedom to explore possibilities is key. Stay organized with layers. Try different looks with drag-and-drop textures and materials. Compare and share ideas instantly with fast renders, annotated slides, and saved views!</p>
+            </div>
+            <div class="boxx">
+                <h2>Learn More</h2>
+                <p>Click here to explore the infinite possibilities of your creativity.</p>
+                <a href="#">Explore Now</a>
+            </div>
+        </div>
+    </div>
+
+<br><br>
+<video>
+    <source src="https://umake.cdn.prismic.io/umake/4fd18534-e2b5-4785-8dc7-48776e67f6b7_LOOP3.mp4">
+</video>
+<br><br>
+
+
+<footer>
+ <div class="footer-content">
+    <div class="footer-column">
+      <h4>Product</h4>
+      <ul>
+        <li><a href="#">uMake+</a></li>
+        <li><a href="#">Pricing</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">App Updates</a></li>
+        <li><a href="#">Features</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Why uMake</h4>
+      <ul>
+        <li><a href="#">Architects & Interior Designers</a></li>
+        <li><a href="#">Graphic & UX Designers</a></li>
+        <li><a href="#">Business Owners</a></li>
+        <li><a href="#">Marketing & Sales</a></li>
+        <li><a href="#">Students & Teachers</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Help</h4>
+      <ul>
+        <li><a href="#">Learn</a></li>
+        <li><a href="#">Forum</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <ul class="footer-socials">
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+ </div>
+ <div class="footer-bottom">
+    <p>&copy; 2023 uMake, Inc. All rights reserved</p>
+ </div>
+</footer>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
